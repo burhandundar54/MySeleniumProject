@@ -48,6 +48,6 @@ public class Practice4 extends TestBase {
         actions.sendKeys(Keys.PAGE_DOWN).perform();
         Thread.sleep(5000);
         List<WebElement> sonyList= driver.findElements(By.xpath("//*[@data-test-id='product-card-image-container']"));
-        Assert.assertEquals(78,sonyList.size());
+        Assert.assertEquals(72,sonyList.size());
     }
 }
